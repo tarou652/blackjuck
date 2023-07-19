@@ -1,0 +1,16 @@
+envにする方法
+Set-ExecutionPolicy Unrestricted -Scope Process
+. env/Scripts/activate  
+
+herokuにログイン
+heroku login --interactive
+
+クラスのサイト
+bootstrap
+https://getbootstrap.jp/
+
+ファイル読み込み
+https://www.javadrive.jp/python/file/index2.html
+
+でーた結合
+https://utokyo-ipp.github.io/7/7-1.html

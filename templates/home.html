@@ -1,0 +1,32 @@
+{%extends"base.html"%}
+
+{% block  body%}
+<div class="card" style="width: 80%;  padding-left: 10%;">
+  <div><img src="https://th.bing.com/th/id/OIP.KhhjyUgwaX9DAxj9_jIdvQHaFK?pid=ImgDet&rs=1" class="card-img-top;text-align:center" alt="アイコン"style="width: 22rem; height: 15rem;"></div>
+  
+    <div class="card-body">
+      
+      <h2 class="card-title">BlackJack</h2>
+      
+      <a href="/game" class="btn btn-primary">PLAY</a>
+      <a href="/score" class="btn btn-primary">SCORE</a>
+      <p>   </p>
+      <font size="6">概要説明</font>
+      <p>基本的には普通のブラックジャックと同じですが５ラウンド行い、最高スコアを競うルールになります。特殊ルールとしてAが２枚以上あったときにー１０されるのは一度のみになります。例：A　A　A　のとき２３。本来なら１３。カードは５枚までしか持てないようになっています。</p>
+      <font size="6">操作説明</font>
+      <p>spece to start : スペースキーでスタート</p>
+      <p>Press spece to decide the bet : スペースキーで掛け金を確定させる</p>
+      <p>Left down Right up : 掛け金を右矢印キーで１０あげる。左矢印キーで１０下げる</p>
+      <p>H:HIT　：Hキーで１枚カードを引く</p>
+      <p>D:DOUBLE DOWN :Ｄキーで１枚引き、掛け金を２倍にして勝負する</p>
+      <p>S:STAND : Sキーでその持ちカードで勝負する</p>
+      <p>Press N key to restart : Nキーで初めの画面に戻ります</p>
+      <p>ESCキーと右上の×でいつでもやめてWEBページに戻れます</p>
+      <p>Qキーで応答なしや画面が進まないときに更新することができます。</p>
+    </div>
+ 
+  
+ </div>
+  <!-- Button trigger modal -->
+</div>
+{%endblock %}

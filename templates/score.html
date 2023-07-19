@@ -1,0 +1,82 @@
+{%extends"base.html"%}
+{% block  body%}
+
+
+<h1 style="text-align: center;">ランキング</h1>
+<table class="table"  class="px">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">スコア</th>
+      <th scope="col">日時</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>{{data.score1}}</td>
+      <td>{{data.time1}}</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>{{data.score2}}</td>
+      <td>{{data.time2}}</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>{{data.score3}}</td>
+      <td>{{data.time3}}</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>{{data.score4}}</td>
+      <td>{{data.time4}}</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>{{data.score5}}</td>
+      <td>{{data.time5}}</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>{{data.score6}}</td>
+      <td>{{data.time6}}</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>{{data.score7}}</td>
+      <td>{{data.time7}}</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>{{data.score8}}</td>
+      <td>{{data.time8}}</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>{{data.score9}}</td>
+      <td>{{data.time9}}</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>{{data.score10}}</td>
+      <td>{{data.time10}}</td>
+     
+    </tr>
+    
+
+  </tbody>
+</table>
+<div  style=" text-align: center;"><a href="/" class="btn btn-primary"style="width: 10rem;">BACK</a></div>
+
+{%endblock %}

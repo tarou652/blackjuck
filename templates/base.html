@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initialscale=1.0">
+    <link rel="stylesheet" href="{{url_for("static",filename="css/bootstrap.min.css")}}" href="ooo.css">
+    <title>BlackJack</title>
+    {% block head %}{%endblock %}
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/" style="font-size: 2rem;">BlackJack</a>
+        </div>
+      </nav>
+    {% block body %}{%endblock %}
+    
+</body>
+</html>
